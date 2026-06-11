@@ -1,0 +1,14 @@
+site_name: DBA Production Playbook
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Oracle:
+      - Real Application Clusters (RAC): oracle/rac.md
+      - Data Guard (DG): oracle/dg.md
+      - GoldenGate (GG): oracle/gg.md
+  - MySQL:
+      - Backup & Recovery: mysql/backup.md
+  - PostgreSQL:
+      - Performance Tuning: postgresql/tuning.md
